@@ -41,9 +41,9 @@ Initial exploration included:
 
 •	Using visualizations (via Matplotlib & Seaborn) to:
 
-o	Understand correlation between variables
+  o	Understand correlation between variables
 
-o	Visualize geographic and income-based price trends
+  o	Visualize geographic and income-based price trends
 
 •	Observed high correlation between median income and house price
 
@@ -51,39 +51,39 @@ o	Visualize geographic and income-based price trends
 ________________________________________
 **Key Steps Performed:**
 
-1.	**Data Collection & Cleaning:**
+1.**Data Collection & Cleaning:**
 
-o	Loaded California Housing dataset via Scikit-learn
+  o	Loaded California Housing dataset via Scikit-learn
 
-o	Checked for missing/null values (none found)
+  o	Checked for missing/null values (none found)
 
-o	Derived features like rooms_per_household for better model performance
+  o	Derived features like rooms_per_household for better model performance
 
-2.	**Data Visualization:**
+2.**Data Visualization:**
 
-o	Histograms to view distributions
+  o	Histograms to view distributions
 
-o	Correlation matrix to identify key influencers of price
+  o	Correlation matrix to identify key influencers of price
 
-o	Scatter plots for relationships between income, location, and price
+  o	Scatter plots for relationships between income, location, and price
 
-3.	**Model Development:**
+3.**Model Development:**
 
-o	Applied train-test split to evaluate model generalizability
+  o	Applied train-test split to evaluate model generalizability
 
-o	Used XGBoost Regressor from Scikit-learn for prediction
+  o	Used XGBoost Regressor from Scikit-learn for prediction
 
-o	Tuned basic hyperparameters for optimal accuracy
+  o	Tuned basic hyperparameters for optimal accuracy
 
-4.	**Model Evaluation:**
+4.**Model Evaluation:**
 
-o	Evaluated using:
+  o	Evaluated using:
 
-1.**R² Score** – to measure how well variance in prices is explained
+      1.**R² Score** – to measure how well variance in prices is explained
 
-2.**Mean Absolute Error (MAE)** – to measure average prediction error
+      2.**Mean Absolute Error (MAE)** – to measure average prediction error
 
-o	Visualized predicted vs. actual prices with a scatter plot
+  o	Visualized predicted vs. actual prices with a scatter plot
 ________________________________________
  **Technology Stack Used:**
 
